@@ -19,6 +19,7 @@ public class Selectcls
       //  driver.findElement(By.xpath("//a[text()='Create new account']")).click();
         
         WebElement ele = driver.findElement(By.xpath("//select[@id='day']"));
+     System.out.println(ele);
      
      // select class for date
         Select sel=new Select(ele);        
